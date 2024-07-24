@@ -5,9 +5,14 @@
   "private": true,
   "scripts": {
     "demo": "pnpm --filter=demo dev",
-    "build": "pnpm --filter \"./packages/*\" build"
+    "build": "pnpm --filter \"./packages/*\" build",
+    "dev": "turbo dev"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@9.4.0",
+  "devDependencies": {
+    "turbo": "^2.0.9"
+  }
 }
